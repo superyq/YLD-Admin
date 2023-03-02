@@ -1,5 +1,6 @@
 <template>
   <div>home</div>
+  <img-cutter></img-cutter>
 </template>
 
 <script setup>
