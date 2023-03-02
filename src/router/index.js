@@ -1,19 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
+import baseRouters from "./base.js";
+
+let routes = [...baseRouters];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes: [
-    {
-      path: "/login",
-      name: "login",
-      component: () => import("@/pages/login/index.vue"),
-    },
-    {
-      path: "/home",
-      name: "home",
-      component: () => import("@/pages/home/index.vue"),
-    },
-  ],
+  routes: routes,
   scrollBehavior() {
     return {
       el: "#app",

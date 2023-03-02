@@ -2,7 +2,9 @@
   <div>home</div>
 </template>
 
-<script setup></script>
+<script setup>
+import ImgCutter  from '@/components/ImgCutter.vue';
+</script>
 
 <style lang="scss" scoped>
 </style>

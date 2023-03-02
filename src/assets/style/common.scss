@@ -1,0 +1,23 @@
+@import "./variables.scss";
+
+.c-contain {
+  width: $contain-width;
+  min-height: calc(100vh - 341px);
+  margin: 40px auto;
+
+  .c-title {
+    margin: 30px auto 20px;
+    width: 50%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    color: #fff;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(3, 86, 159, 1) 50%, rgba(0, 0, 0, 0));
+  }
+}
+
+.c-rich-text {
+  line-height: 1.5em;
+  font-family: 'Courier New', Courier, monospace;
+}
